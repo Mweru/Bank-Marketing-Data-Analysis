@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-model = joblib.load('xgboost_model_pipeline.pkl')
+model = joblib.load('final_model_pipeline.pkl')
 
 st.title("Bank Marketing Subscription Prediction")
 st.write("Enter customer details to predict if they will subscribe.")
